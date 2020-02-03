@@ -5,7 +5,7 @@ git init
 git remote rm origin
 git remote add origin git@github.com:M201575478/demo.git
 git add .
-git commit -m 'first_commit'  
+git commit demo1.md -m 'first_commit'  
 git push origin master
 ```
 
