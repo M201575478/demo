@@ -5,7 +5,7 @@ git init
 git remote rm origin
 git remote add origin git@github.com:M201575478/demo.git
 git add .
-git commit gitUpload.md -m 'first_commit'  
+git commit -m 'first_commit'  
 git push origin master
 ```
 
@@ -32,3 +32,11 @@ git add .
 git commit -m 'first_commit'  
 git push origin master
 ```
+
+
+# 删除文件
+git pull origin master
+git rm -r --cached targetscan
+git commit -m '删除了target'
+git push -u origin master
+
