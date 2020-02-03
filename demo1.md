@@ -12,7 +12,8 @@ git remote add origin git@github.com:M201575478/demo.git
 
 # 如果提示exist 
 ```
-#git remote rm origin
+### #git remote rm origin
+### #git commit demo1.md -m 'first_commit' 
 ```
 
 # 推荐先把两边同步下
@@ -25,3 +26,4 @@ git pull origin master
 git add .
 git commit -m 'first_commit'  
 git push origin master
+```
