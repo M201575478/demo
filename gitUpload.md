@@ -35,8 +35,10 @@ git push origin master
 
 
 # 删除文件
+```
 git pull origin master
 git rm -r --cached targetscan
 git commit -m '删除了target'
 git push -u origin master
+```
 
