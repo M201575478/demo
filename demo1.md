@@ -1,30 +1,27 @@
-# Demo1
+# 在自己电脑里找到自己所要上传的文件夹，右键Git Bash here
 
-## 标题
+```
+git init
+```
 
-# 标题1
-## 标题2
-### 标题3
-#### 标题4
-##### 标题5
-###### 标题6
+# 其文件夹下会建立一个.git文件夹
 
-标题1
-===
+```
+git remote add origin git@github.com:M201575478/demo.git
+```
 
-标题2
----
+# 如果提示exist 
+```
+#git remote rm origin
+```
 
+# 推荐先把两边同步下
+```
+git pull --rebase origin master
+git pull origin master
+```
 
-## 段落
-我是马先雄，我喜欢开源社区技术和氛围  
-    哈哈  
-    规划所感动
-
-## 强调
-我是**粗图文**字样式      我是***~~删除线~~***
-
-## 列表
-
-* 啊 啊
-1. a a 
+```
+git add .
+git commit -m 'first_commit'  
+git push origin master
